@@ -1,0 +1,114 @@
+/* Reset de estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do menu de acessibilidade */
+.acessibilidade {
+    background-color: #13a851;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.acessibilidade-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #beeedc;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Estilo do conteúdo principal (adapte conforme necessário) */
+main {
+    padding: 20px;
+}
+
+/* Estilo do rodapé (adapte conforme necessário) */
+footer {
+    background-color: #0ea121;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Estilo do conteúdo principal (adapte conforme necessário) */
+main {
+    padding: 20px;
+}
+
+/* Estilo dos elementos de vídeo, áudio e letreiro (adapte conforme necessário) */
+video,
+audio,
+marquee {
+    margin: 10px 0;
+}
+
+/* Estilo do elemento de detalhes (adapte conforme necessário) */
+details {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilo do resumo do elemento de detalhes (adapte conforme necessário) */
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilo do elemento de detalhes (adapte conforme necessário) */
+details {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilo do resumo do elemento de detalhes (adapte conforme necessário) */
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #2fbb59; /* Cor verde */
+}
+
+/* Estilo da lista dentro do detalhe com cor verde */
+.verde {
+    list-style-type: none;
+    padding-left: 20px; /* Espaçamento à esquerda para os itens da lista */
+}
+
+.verde li {
+    color: #5e5d5d; /* Cor verde */
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+}

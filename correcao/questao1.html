@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="senha">Senha (máximo de 8 caracteres):</label>
+        <input type="password" id="senha" name="senha" maxlength="8" required>
+        
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto"><br><br>
+        
+        <label>Qual é a sua faixa salarial?</label>
+        
+        <label>
+            <input type="radio" name="faixa_salarial" value="0-3">
+            Até 3 salários
+        </label>
+        
+        <label>
+            <input type="radio" name="faixa_salarial" value="3-5">
+            De 3 a 5 salários
+        </label>
+        
+        <label>
+            <input type="radio" name="faixa_salarial" value="5-10">
+            De 5 a 10 salários
+        </label>
+        
+        <label>
+            <input type="radio" name="faixa_salarial" value="acima-de-10">
+            Acima de 10 salários
+        </label>
+
+        <label>Quais são os sites que você mais acessa?</label>
+
+        <label>
+            <input type="checkbox" name="sites" value="Google"> Google<br>
+        </label>
+
+        <label>
+            <input type="checkbox" name="sites" value="G1"> G1<br>
+        </label>
+
+        <label>
+            <input type="checkbox" name="sites" value="Yahoo"> Yahoo<br>
+        </label>
+
+        <label>
+            <input type="checkbox" name="sites" value="Hotmail"> Hotmail<br>
+        </label>
+
+        <label>
+            <input type="checkbox" name="sites" value="UOL"> UOL<br>
+        </label>
+
+        <label>
+            <input type="checkbox" name="sites" value="NFO"> NFO<br>
+        </label>
+
+        
+        <label for="estado">Qual Estado Brasileiro você reside?</label>
+        <select id="estado" name="estado">
+            <option value="">--selecionar--</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+        <label for="comentarios">Gostaria de fazer comentários?</label>
+<textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+<br><br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar"><br>
+
+</body>
+</html>
+
+
+
